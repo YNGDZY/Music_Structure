@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music_Structure</string>
+    <string name="streaming">Streaming</string>
+    <string name="playlist">Playlist</string>
+    <string name="library">Library</string>
+    <string name="store">Store</string>
+    <string name="settings">Settings</string>
+    <string name="trending">Trending</string>
+    <string name="playlist_desc">This activity is for displaying and managing playlists the user has saved.</string>
+    <string name="streaming_desc">This activity is for streaming music content from various sources.</string>
+    <string name="library_desc">This activity is for viewing the users library of songs.</string>
+    <string name="store_desc">This activity is a store for buying music downloads.</string>
+    <string name="settings_desc">This activity is for altering the applications settings.</string>
+    <string name="trending_desc">This activity is for displaying the latest trending music.</string>
+</resources>
