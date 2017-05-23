@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,35 +9,41 @@
     android:orientation="vertical"
     tools:context="com.example.deezy.music_structure.MainActivity">
 
-    <TextView
-        android:id="@+id/streaming"
-        style="@style/HeaderStyle"
-        android:text="@string/streaming" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/playlist"
-        style="@style/HeaderStyle"
-        android:text="@string/playlist" />
+        <TextView
+            android:id="@+id/streaming"
+            style="@style/HeaderStyle"
+            android:text="@string/streaming" />
 
-    <TextView
-        android:id="@+id/library"
-        style="@style/HeaderStyle"
-        android:text="@string/library" />
+        <TextView
+            android:id="@+id/playlist"
+            style="@style/HeaderStyle"
+            android:text="@string/playlist" />
 
-    <TextView
-        android:id="@+id/trending"
-        style="@style/HeaderStyle"
-        android:text="@string/trending" />
+        <TextView
+            android:id="@+id/library"
+            style="@style/HeaderStyle"
+            android:text="@string/library" />
 
-    <TextView
-        android:id="@+id/store"
-        style="@style/HeaderStyle"
-        android:text="@string/store" />
+        <TextView
+            android:id="@+id/trending"
+            style="@style/HeaderStyle"
+            android:text="@string/trending" />
 
-    <TextView
-        android:id="@+id/settings"
-        style="@style/HeaderStyle"
-        android:text="@string/settings" />
+        <TextView
+            android:id="@+id/store"
+            style="@style/HeaderStyle"
+            android:text="@string/store" />
 
+        <TextView
+            android:id="@+id/settings"
+            style="@style/HeaderStyle"
+            android:text="@string/settings" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
