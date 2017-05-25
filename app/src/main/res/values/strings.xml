@@ -6,10 +6,12 @@
     <string name="store">Store</string>
     <string name="settings">Settings</string>
     <string name="trending">Trending</string>
-    <string name="playlist_desc">This activity is for displaying and managing playlists the user has saved. To make this screen work the users preferences need to be saved, can use sharedPref or Intents with key value pairs.</string>
-    <string name="streaming_desc">This activity is for streaming music content from various sources. A mediaPlayer will need to be implemented and its source needs to be able to be set to the chosen stream source.</string>
-    <string name="library_desc">This activity is for viewing the users library of songs. Can access the users media files by launching the file explorer with an intent, and get the media URI in onActivityResult.</string>
-    <string name="store_desc">This activity is a store for buying music downloads.Need to be able to access an online store. The in app billing service can be used to achieve some of this functionality.</string>
-    <string name="settings_desc">This activity is for altering the applications settings. Can use sharedPref to save preferences.</string>
-    <string name="trending_desc">This activity is for displaying the latest trending music. Download a info to populate a listView.</string>
+    <string name="playlist_desc">This activity is for displaying and managing playlists the user has saved. To make this screen work the users preferences need to be saved, can use sharedPref or Intents with key value pairs. ListView for displaying the items.</string>
+    <string name="streaming_desc">This activity is for streaming music content from various sources. A mediaPlayer will need to be implemented and its source needs to be able to be set to the chosen stream source. ListView to select a source. The player will have album art in an ImageView, Buttons for Functionality (Play,Pause).</string>
+    <string name="library_desc">This activity is for viewing the users library of songs. Can access the users media files by launching the file explorer with an intent, and get the media URI in onActivityResult. ListView to show library. Use a custom java class which will hold a two strings(Song Title, Artist) and an image resource id. A custom array adapter can be used to implement this with the ListView.</string>
+    <string name="store_desc">This activity is a store for buying music downloads.Need to be able to access an online store. The in app billing service can be used to achieve some of this functionality. Layout using a ListView, custom java class and adapter.</string>
+    <string name="settings_desc">This activity is for altering the applications settings. Can use sharedPref to save preferences. ListView for layout using the onItemClick functionality to register a users input and to alter the settings.</string>
+    <string name="trending_desc">This activity is for displaying the latest trending music. Download a info to populate a listView. With the custom java class including two strings (Title, Artist) and an image resource ID for the album art.</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
 </resources>
